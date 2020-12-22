@@ -34,7 +34,7 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
-  array [array.legth] = elemento;
+  array [array.length] = elemento;
   return array;
 }
 
@@ -60,11 +60,12 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
-  for (var i=0;i<array.lenght;i++) {
+  var resultado = false;
+  for (var i=0;i<array.length;i++) {
     if (array[i]===elemento) {
-      return true;}
+      resultado = true;}
   }
-  return false;
+  return resultado;
 }
 
 function agregarNumeros(numeros) {
