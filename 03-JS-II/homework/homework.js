@@ -59,7 +59,6 @@ function fizzBuzz(numero) {
   return numero;
 }
 
-
 function esPrimo(numero) {
   // Devuelve "true" si "numero" es primo
   // De lo contrario devuelve "falso"
